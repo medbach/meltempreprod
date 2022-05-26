@@ -1,0 +1,76 @@
+.listing__card{
+    &__box__images{
+        img{
+            width: 100%;
+        }
+    }
+}
+.page-listing-inner img {
+    width: 100%;
+    object-fit: cover;
+}
+.page-listing-inner {
+    padding: 2em 0;
+}
+
+.card-listing:nth-child(odd) .revers{
+    flex-direction: row-reverse;
+}
+.loadingclass{
+    text-align: center;
+}
+span.listing__card__box__ville-cp {
+    font-weight: 700;
+    color:$color_1;
+}
+span.listing__card__box__prix {
+    font-weight: 700;
+    color:$color_1;
+    font-size: 20px;
+}
+.revers {
+    align-items: center;
+}
+.header-listing{
+    margin-bottom: 3em;
+    &-description{
+        margin-bottom: 2em;
+    }
+}
+
+.listing__card__box__images:hover .listing__card__box__btn {
+    opacity: 1;
+}
+span.listing__card__box__btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    opacity: 0;
+    z-index: 999;
+    height:100%;
+    
+    text-align: center;
+    background-color: hsla(0,0%,42.7%,.75);
+}
+span.listing__card__box__btn button {
+    top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+}
+li.card-listing {
+    padding-bottom: 2em;
+}
+.listing__card__box__images:hover img{
+    opacity: 0.5;
+    background-color: hsla(0,0%,42.7%,.3);
+}
+.listing__card__box__images {
+    position: relative;
+}

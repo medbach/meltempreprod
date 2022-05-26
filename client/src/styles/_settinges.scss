@@ -1,0 +1,21 @@
+$color_1:#ffd362;
+$color_2:#525252;
+$color_text:#525252;
+#root{
+    h1 {
+        font-size: 40px;
+        color:$color_1;
+        margin-bottom: 1em;
+    }
+
+    
+    p {
+        font-size: 17px;
+        color:$color_2;
+        line-height: 23px;
+    }
+    ul {
+        list-style: none;
+    }
+
+}

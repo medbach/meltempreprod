@@ -1,0 +1,71 @@
+
+.globalContact.row {
+    background: #e5bb4f;
+    color: #fff;
+    padding: 4em 2em;
+    button {
+        text-align: center;
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+        border: 1px solid #fff;
+        text-transform: capitalize;
+        padding: 0.3em 2em;
+        float: right;
+    }
+    .errerForm{
+        color:red;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    label {
+        padding-bottom: 0.5em;
+    }
+    p{
+        color:#fff !important;
+    }
+
+    .title.module-contact__title.js-animate {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .formGroupe-simple input {
+        width: 100%;
+    }
+    .formGroupe input {
+        width: 100%;
+    }
+    .coords__element svg {
+        min-width: 1.2em;
+        width: 1.2em;
+        fill: #fff;
+        margin-right: 1em;
+    }
+    .leftContact {
+        padding-right: 2em;
+    }
+    .coords__element {
+        margin-bottom: 1em;
+        display: flex;
+        a{
+            color:#fff;
+        }
+        p{
+            margin-bottom: 0;
+            color:#fff !important;
+        }
+    }
+    .module-contact__info .title .title__content {
+        font: normal normal 400 1.75em Arial,Times New Roman,serif;
+        letter-spacing: .3em;
+        text-transform: uppercase;
+    }
+    .module-contact__coords .coords__title .title__content {
+        font: normal normal 400 1.45em Arial,Times New Roman,serif;
+    }
+    .coords__title.title {
+        padding-bottom: 1em;
+    }
+}
+

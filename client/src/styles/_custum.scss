@@ -1,0 +1,47 @@
+main {
+
+    padding: 0 2em;
+}
+
+.logoSite {
+    padding: 0 1em;
+}
+.logoSite img {
+    width: 304px;
+}
+
+nav {
+    padding: 0.5em 1em;
+}
+
+
+
+
+.ListeSearch {
+    position: absolute;
+    background: #fff;
+    overflow-y: scroll;
+}
+.ListeSearch span {
+    display: block;
+    font-size: 10px;
+}
+.close ,
+.searchNow {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.searchCompenant{
+    position: relative;
+}
+.ListeSearch {
+    position: absolute;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    font-size: 17px;
+    background-color: #c2972d;
+    color: #fff;
+    text-transform: capitalize;
+}
