@@ -1,0 +1,47 @@
+.module-decorate {
+    background: transparent;
+    position: relative;
+    display: none;
+    @media screen and (min-width: 992px) {
+        display: block;
+    }
+    .module-decorate__bgelement {
+        background: #ffd362;
+        position: absolute;
+        width: 900px;
+        height: 260px;
+        top: 60px;
+        left: 44%;
+    }
+    .module-decorate__content {
+        position: relative;
+        display: inline-block;
+        vertical-align: bottom;
+        top: 0;
+        left: 54%;
+        // .js-animation-image {
+        //     display: block;
+        //     width: 100%;
+        //     height: 100%;
+        // }
+        // .js-animation-image__out {
+        //     width: 100%;
+        //     height: 100%;
+        //     overflow: hidden;
+        //     .js-animation-image__in {
+        //         width: 100%;
+        //         height: 100%;
+        //         overflow: hidden;
+        //         .js-animation-image__inner {
+        //             line-height: 0;
+        //             width: 100%;
+        //             height: 100%;
+        //             background: #f1f1f1;
+        //             .js-animation-image__img {
+        //                 display: block;
+        //             }
+        //         }
+        //     }
+        // }
+    }
+}
