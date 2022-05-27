@@ -1,6 +1,8 @@
 import Allroutes from "./component/Allroutes";
 import Menu from "./component/Menu";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./component/Footer";
+import Toolbar from "./component/Toolbar";
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
       </main>
 
       <footer>
-
+        <Footer/>
       </footer>
-      
+      <Toolbar/>
     </div>
     
   );
