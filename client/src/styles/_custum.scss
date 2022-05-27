@@ -6,9 +6,7 @@ main {
 .logoSite {
     padding: 0 1em;
 }
-.logoSite img {
-    width: 304px;
-}
+
 
 nav {
     padding: 0.5em 1em;
@@ -33,7 +31,8 @@ nav {
     right: 0;
 }
 .searchCompenant{
-    position: relative;
+    position: absolute;
+    bottom: 0;
 }
 .ListeSearch {
     position: absolute;
@@ -44,4 +43,44 @@ nav {
     background-color: #c2972d;
     color: #fff;
     text-transform: capitalize;
+    top:-15px;
 }
+
+/******************MENU*******************/
+.nav-link:focus,
+.nav-link:hover {
+    color: #212529 !important;
+}
+.offcanvas.show {
+    background: #e5bb4f;
+}
+
+.offcanvas-body{
+    
+    .nav-link:first-child {
+        border-top: 1px solid transparent;
+    }
+    .nav-link{
+        border-top: 1px solid #ffd362;
+    }
+    .menu__link {
+        font: normal normal 400 1.4em/1em Arial,sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+        display: block;
+        padding: 1.25em 0;
+        outline: none;
+        text-decoration: none;
+        color: inherit;
+        transition: color .5s ease-in-out;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 1.25em 0 !important;
+        color: #fff;
+    }
+
+}
+
+/******************MENU*******************/
