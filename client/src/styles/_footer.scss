@@ -1,0 +1,89 @@
+.footer {
+    a {
+        color: $color_2;
+        text-decoration: none;
+    }
+    .title {
+        margin: 0 0 2em;
+        .title__content {
+            color: $color_1;
+            font: normal normal 400 0.9375em Arial,sans-serif;
+            letter-spacing: .3em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    padding: 0 3em;
+    overflow: hidden;
+    position: relative;
+    z-index: 60;
+    .footer-top__wrapper {
+        padding: 4em 0;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        max-width: 1230px;
+        margin: 0 auto;
+        border-bottom: 1px solid #d3d3d3;
+        display: flex;
+        flex-wrap: wrap;
+        @media (min-width: 992px) {
+            justify-content: space-between;
+            &>*{
+                margin: 0 auto;
+                width: 33.3333%;
+            }
+            .partners {
+                .partners__wrapper {
+                    text-align: right;
+                    .title__content {
+                        text-align: right !important;
+                    }
+                }
+            }
+            .connect__wrapper {
+                display: inline-block;
+                text-align: left;
+            }
+        }
+        @media (max-width: 991px) {
+            &>*{
+                margin: 2em 0;
+            }
+            ul.partners__list {
+                padding-left: 0;
+                text-align: center;
+            }
+        }
+        .footer-top__logo {
+            a.top__logo {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .connect__wrapper {
+            display: inline-block;
+            text-align: center;
+            .links-group__wrapper {
+                a.links-group__link.button-drawing {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .button-drawing__drawing {
+                        height: 25px;
+                    }
+                    .button-drawing__content {
+                        letter-spacing: .2em;
+                        text-transform: uppercase;
+                        color: $color_2;
+                        text-decoration: none;
+                        margin-left: 5px;
+                        font: normal normal  600 .875em Arial,sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}

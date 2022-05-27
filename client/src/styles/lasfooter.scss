@@ -1,0 +1,60 @@
+.footer-last {
+    @media screen and (min-width: 768px) {
+        margin: 2em 0 5em;
+        .footer-last__wrapper {
+            max-width: 1230px;
+            display: flex;
+            align-items: center;
+
+        }
+        .copyright {
+            margin-top: 0;
+            margin-left: 3em;
+        }
+        .copyright {
+            .copyright__wrapper {
+                display: flex;
+                align-items: center;
+                
+            }
+            ul.copyright__nav-list.nav-list {
+                display: flex;
+            }
+        }
+    }
+    .copyright {
+        font-family: Arial,sans-serif;
+        margin-top: 1em;
+        nav.footer-last__menu {
+            padding: 0;
+        }
+        .copyright__text, .copyright__nav-list {
+            font: normal normal 400 0.75em Arial,sans-serif !important;
+            letter-spacing: 0;
+            text-transform: none;
+            color: #d3d3d3 !important;
+        }
+        ul.copyright__nav-list.nav-list {
+            padding-left: 0 !important;
+            .nav-list__item {
+                display: inline-block;
+                padding: 0 0.3em;
+                border-right-width: 2px;
+                border-right-style: solid;
+                line-height: .6em;
+                a.nav-list__link {
+                    color: #d3d3d3 !important;
+                }
+            }
+        }
+    }
+    margin: 2em 0;
+    text-align: center;
+    .footer-last__lbi-logo {
+        fill: #bababa;
+        width: 140px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
