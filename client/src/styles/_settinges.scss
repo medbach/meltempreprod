@@ -1,19 +1,26 @@
-$color_1:#ffd362;
-$color_2:#525252;
-$color_text:#525252;
-#root{
+$color_1: #ffd362;
+$color_2: #525252;
+$color_text: #525252;
+$color_brand-1: #ffd362;
+$color_neutral-1: #555555;
+$color_neutral-3: #555555;
+$font-family--1: 'Arial';
+$font-family--2: 'Arial';
+
+#root {
     h1 {
         font-size: 40px;
-        color:$color_1;
+        color: $color_1;
         margin-bottom: 1em;
     }
 
-    
+
     p {
         font-size: 17px;
-        color:$color_2;
+        color: $color_2;
         line-height: 23px;
     }
+
     ul {
         list-style: none;
     }
