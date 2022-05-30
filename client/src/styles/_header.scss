@@ -1,7 +1,28 @@
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    box-shadow: 0 1px 0 #0000002e;
 
+
+    &:after {
+        bottom: 0;
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: -1;
+        transition: box-shadow .5s ease-in-out;
+    }
+    
+}
 
 header{
-    padding: 1em 2em;
+    padding: 0.5em 2em;
+    background: $color_natural;
     .wrap-header {
         display: flex;
         flex-direction: row;

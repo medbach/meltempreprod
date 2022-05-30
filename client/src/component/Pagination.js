@@ -14,7 +14,7 @@ const Pagination = ({postesPerPage , totalPostes ,paginate }) => {
             <nav>
                 <ul className=''>
                     {pageNumbers.map((number)=>(
-                        <li key={number} className="okici">
+                        <li key={number} className="testPaginationBach">
                             <a onClick={() =>{paginate(number)}} href='#' className='page-link'>
                                 {number}
                             </a>

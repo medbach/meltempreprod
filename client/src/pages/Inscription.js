@@ -4,10 +4,10 @@ import Register from './Register';
 const Inscription = () => {
     return (
         <div>
-            <div className='page-listing-inner'>
+            {/* <div className='page-listing-inner'>
                 
                 <img src="./img/page-listing.jpg" />
-            </div>
+            </div> */}
 
             <Register />
         </div>

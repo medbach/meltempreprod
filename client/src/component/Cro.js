@@ -3,7 +3,7 @@ import React from 'react';
 const Cro = () => {
     return (
         <div>
-            <section className="module-cro  wrapper my-3">
+            <section className="module-cro  wrapper ">
                 <div className="module-cro__wrapper">
                     <article className="module-cro__content">
                         <div className="module-cro__aligner">

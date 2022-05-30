@@ -17,14 +17,14 @@ const Contact = () => {
 
     const title = useLocation();
     const {pathname} = title
-    console.log("aaaaaaaaaaaaabachtitl" ,pathname.substring(1))
+    console.log("test title" ,pathname.substring(1))
 
     return (
         <>
        
-        <div className='page-listing-inner'>
+        {/* <div className='page-listing-inner'>
             <img src="./img/page-listing.jpg" />
-        </div>
+        </div> */}
         <h1>
             {pathname.substring(1)}
         </h1>

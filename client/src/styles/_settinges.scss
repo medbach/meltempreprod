@@ -157,3 +157,12 @@ $font-family--2: 'Arial';
         padding-right: 0;
     }
 }
+
+
+
+
+.animated{
+    transition: width 1s ease-in, height 1s ease-in;
+}
+
+
